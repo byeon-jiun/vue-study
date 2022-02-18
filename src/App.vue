@@ -1,18 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/databinding">DataBinding</router-link> |
+      <router-link to="/databindinghtml">DataBindingHtml</router-link> |
+      <router-link to="/databindinginputtext">DataBindingInputText</router-link> |
+      <router-link to="/databindinginputnumber">DataBindingInputNumber</router-link> |
+      <router-link to="/databindinginputtextarea">DataBindingInputTextarea</router-link>
+      <br>
+      <router-link to="/databindingselect">DataBindingSelect</router-link> |
+      <router-link to="/databindingcheckbox">DataBindingCheckbox</router-link> |
+      <router-link to="/databindingcheckbox2">DataBindingCheckbox2</router-link> |
+      <router-link to="/databindingradio">DataBindingRadio</router-link> |
+      <router-link to="/databindingattribue">DataBindingAttribue</router-link> |
+      <router-link to="/databindingbutton">DataBindingButton</router-link>
+      <br>
+      <router-link to="/databindingclass">DataBindingClass</router-link> |
+      <router-link to="/databindingclass2">DataBindingClass2</router-link>
+    </div>
+    <router-view>
+    </router-view>
+
+  </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
@@ -21,6 +33,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
