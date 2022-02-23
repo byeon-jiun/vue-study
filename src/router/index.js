@@ -1,18 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import DataBinding from '../views/DataBinding.vue'
-import DataBindingHtml from '../views/DataBindingHtml'
-import DataBindingInputText from '../views/DataBindingInputText'
-import DataBindingInputNumber from '../views/DataBindingInputNumber'
-import DataBindingInputTextarea from '../views/DataBindingInputTextarea'
-import DataBindingSelect from '../views/DataBindingSelect'
-import DataBindingCheckbox from  '../views/DataBindingCheckbox'
-import DataBindingCheckbox2 from '../views/DataBindingCheckbox2'
-import DataBindingRadio from "../views/DataBindingRadio";
-import DataBindingAttribue from "../views/DataBindingAttribue";
-import DataBindingButton from "../views/DataBindingButton";
-import DataBindingClass from "../views/DataBindingClass";
-import DataBindingClass2 from "../views/DataBindingClass2";
+import DataBinding from '../views/binding/DataBinding.vue'
+import DataBindingHtml from '../views/binding/DataBindingHtml'
+import DataBindingInputText from '../views/binding/DataBindingInputText'
+import DataBindingInputNumber from '../views/binding/DataBindingInputNumber'
+import DataBindingInputTextarea from '../views/binding/DataBindingInputTextarea'
+import DataBindingSelect from '../views/binding/DataBindingSelect'
+import DataBindingCheckbox from '../views/binding/DataBindingCheckbox'
+import DataBindingCheckbox2 from '../views/binding/DataBindingCheckbox2'
+import DataBindingRadio from "../views/binding/DataBindingRadio";
+import DataBindingAttribue from "../views/binding/DataBindingAttribue";
+import DataBindingButton from "../views/binding/DataBindingButton";
+import DataBindingClass from "../views/binding/DataBindingClass";
+import DataBindingClass2 from "../views/binding/DataBindingClass2";
+import DataBindingStyle from "../views/binding/DataBindingStyle";
+import DataBindingList from "@/views/binding/DataBindingList";
+import RenderingVIf from "@/views/rendering/RenderingVIf";
+import RenderingVShow from "@/views/rendering/RenderingVShow";
+import EventClick from "@/views/event/EventClick";
+import EventClick2 from "@/views/event/EventClick2";
+
 const routes = [
   {
     path: '/',
@@ -88,8 +95,37 @@ const routes = [
     path: '/databindingclass2',
     name: 'DataBindingClass2',
     component: DataBindingClass2
+  },
+  {
+    path: '/databindingstyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/databindinglist',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingvif',
+    name: 'RenderingVIf',
+    component: RenderingVIf
+  },
+  {
+    path: '/renderingvshow',
+    name: 'RenderingVShow',
+    component: RenderingVShow
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventclick2',
+    name: 'EventClick2',
+    component: EventClick2
   }
-
 ]
 
 const router = createRouter({

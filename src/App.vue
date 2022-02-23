@@ -18,7 +18,17 @@
       <router-link to="/databindingbutton">DataBindingButton</router-link>
       <br>
       <router-link to="/databindingclass">DataBindingClass</router-link> |
-      <router-link to="/databindingclass2">DataBindingClass2</router-link>
+      <router-link to="/databindingclass2">DataBindingClass2</router-link> |
+      <router-link to="/databindingstyle">DataBindingStyle</router-link> |
+      <router-link to="/databindinglist">DataBindingList</router-link>
+      <br>
+      <br>
+      <router-link to="/renderingvif">RenderingVIf</router-link> |
+      <router-link to="/renderingvshow">RenderingVShow</router-link>
+      <br>
+      <br>
+      <router-link to="/eventclick">EventClick</router-link> |
+      <router-link to="/eventclick2">EventClick2</router-link>
     </div>
     <router-view>
     </router-view>
