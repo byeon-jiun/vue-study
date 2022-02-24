@@ -28,7 +28,10 @@
       <br>
       <br>
       <router-link to="/eventclick">EventClick</router-link> |
-      <router-link to="/eventclick2">EventClick2</router-link>
+      <router-link to="/eventclick2">EventClick2</router-link> |
+      <router-link to="/eventclick3">EventClick3</router-link> |
+      <router-link to="/eventchange">EventChange</router-link> |
+      <router-link to="/eventkey">EventKey</router-link>
     </div>
     <router-view>
     </router-view>

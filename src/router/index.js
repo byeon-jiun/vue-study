@@ -19,6 +19,9 @@ import RenderingVIf from "@/views/rendering/RenderingVIf";
 import RenderingVShow from "@/views/rendering/RenderingVShow";
 import EventClick from "@/views/event/EventClick";
 import EventClick2 from "@/views/event/EventClick2";
+import EventClick3 from "@/views/event/EventClick3";
+import EventChange from "@/views/event/EventChange";
+import EventKey from "@/views/event/EventKey";
 
 const routes = [
   {
@@ -125,6 +128,21 @@ const routes = [
     path: '/eventclick2',
     name: 'EventClick2',
     component: EventClick2
+  },
+  {
+    path: '/eventclick3',
+    name: 'EventClick3',
+    component: EventClick3
+  },
+  {
+    path: '/eventchange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/eventkey',
+    name: 'EventKey',
+    component: EventKey
   }
 ]
 
