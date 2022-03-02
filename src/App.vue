@@ -20,7 +20,8 @@
       <router-link to="/databindingclass">DataBindingClass</router-link> |
       <router-link to="/databindingclass2">DataBindingClass2</router-link> |
       <router-link to="/databindingstyle">DataBindingStyle</router-link> |
-      <router-link to="/databindinglist">DataBindingList</router-link>
+      <router-link to="/databindinglist">DataBindingList</router-link> |
+      <router-link to="/databindinglist2">DataBindingList2</router-link>
       <br>
       <br>
       <router-link to="/renderingvif">RenderingVIf</router-link> |
@@ -32,6 +33,13 @@
       <router-link to="/eventclick3">EventClick3</router-link> |
       <router-link to="/eventchange">EventChange</router-link> |
       <router-link to="/eventkey">EventKey</router-link>
+      <br>
+      <br>
+      <router-link to="/computed">Computed</router-link>
+      <br>
+      <br>
+      <router-link to="/watch">Watch</router-link> |
+      <router-link to="/watch2">Watch2</router-link>
     </div>
     <router-view>
     </router-view>

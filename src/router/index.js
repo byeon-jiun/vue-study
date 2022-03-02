@@ -22,6 +22,10 @@ import EventClick2 from "@/views/event/EventClick2";
 import EventClick3 from "@/views/event/EventClick3";
 import EventChange from "@/views/event/EventChange";
 import EventKey from "@/views/event/EventKey";
+import Computed from "@/views/computed/Computed";
+import Watch from "@/views/watch/Watch";
+import Watch2 from "@/views/watch/Watch2";
+import DataBindingList2 from "@/views/binding/DataBindingList2";
 
 const routes = [
   {
@@ -143,6 +147,26 @@ const routes = [
     path: '/eventkey',
     name: 'EventKey',
     component: EventKey
+  },
+  {
+    path: '/computed',
+    name: 'Computed',
+    component: Computed
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: Watch
+  },
+  {
+    path: '/watch2',
+    name: 'Watch2',
+    component: Watch2
+  },
+  {
+    path: '/databindinglist2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
   }
 ]
 
