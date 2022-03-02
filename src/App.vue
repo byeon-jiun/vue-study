@@ -40,6 +40,16 @@
       <br>
       <router-link to="/watch">Watch</router-link> |
       <router-link to="/watch2">Watch2</router-link>
+      <br>
+      <br>
+      <router-link to="/nestedcomponent">NestedComponent</router-link> |
+      <router-link to="/nestedcomponent2">NestedComponent2</router-link> |
+      <router-link to="/nestedcomponent3">NestedComponent3</router-link>
+      <br>
+      <br>
+      <router-link to="/parentcomponent">ParentComponent</router-link> |
+      <router-link to="/parentcomponent2">ParentComponent2</router-link> |
+      <router-link to="/parentcomponent3">ParentComponent3</router-link>
     </div>
     <router-view>
     </router-view>
