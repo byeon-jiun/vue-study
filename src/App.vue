@@ -49,7 +49,14 @@
       <br>
       <router-link to="/parentcomponent">ParentComponent</router-link> |
       <router-link to="/parentcomponent2">ParentComponent2</router-link> |
-      <router-link to="/parentcomponent3">ParentComponent3</router-link>
+      <router-link to="/parentcomponent3">ParentComponent3</router-link> |
+      <router-link to="/parentcomponent4">ParentComponent4</router-link> |
+      <router-link to="/parentcomponent5">ParentComponent5</router-link>
+      <br>
+      <br>
+      <router-link to="/calculator">Calculator</router-link> |
+      <router-link to="/calculator2">Calculator2</router-link> |
+      <router-link to="/calculator3">Calculator3</router-link>
     </div>
     <router-view>
     </router-view>

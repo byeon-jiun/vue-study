@@ -32,6 +32,11 @@ import NestedComponent3 from "@/views/nested/NestedComponent3";
 import ParentComponent from "@/views/parent/ParentComponent";
 import ParentComponent2 from "@/views/parent/ParentComponent2";
 import ParentComponent3 from "@/views/parent/ParentComponent3";
+import ParentComponent4 from "@/views/parent/ParentComponent4";
+import ParentComponent5 from "@/views/parent/ParentComponent5";
+import Calculator from "@/views/compositionAPI/Calculator";
+import Calculator2 from "@/views/compositionAPI/Calculator2";
+import Calculator3 from "@/views/compositionAPI/Calculator3";
 
 const routes = [
   {
@@ -203,6 +208,31 @@ const routes = [
     path: '/parentcomponent3',
     name: 'ParentComponent3',
     component: ParentComponent3
+  },
+  {
+    path: '/parentcomponent4',
+    name: 'ParentComponent4',
+    component: ParentComponent4
+  },
+  {
+    path: '/parentcomponent5',
+    name: 'ParentComponent5',
+    component: ParentComponent5
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: Calculator
+  },
+  {
+    path: '/calculator2',
+    name: 'Calculator2',
+    component: Calculator2
+  },
+  {
+    path: '/calculator3',
+    name: 'Calculator3',
+    component: Calculator3
   }
 ]
 
