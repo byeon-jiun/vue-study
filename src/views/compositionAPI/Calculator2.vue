@@ -28,4 +28,5 @@ export default {
 <style scoped>
 
 </style>
-<!-- reactive 와 computed 를 이용해, keyup 이벤트도 없앨수 있고, 코드가 훨씬 간결 해졌다. -->
+<!-- reactive 와 computed 를 이용해, keyup 이벤트도 없앨수 있고, 코드가 훨씬 간결 해졌다.
+      computed 를 이용해서  num1, num2가 변경이 일어나면 즉시 result 로 더한 값을 반환-->

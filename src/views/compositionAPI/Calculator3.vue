@@ -34,4 +34,5 @@ export default {
 <style scoped>
 
 </style>
-<!-- reactive 와 computed 를 이용해, keyup 이벤트도 없앨수 있고, 코드가 훨씬 간결 해졌다. -->
+<!-- 재사용 가능한 코드로 만들기위해, setup()에 작성되어 있던 코드를 분리해서 별도의 function으로 작성
+      반응형으로 선언된 num1, num2, result 가 외부 function에서 정상적으로 동작하기 위해서는 toRefs를 사용해야함-->
