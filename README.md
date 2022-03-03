@@ -1,3 +1,3 @@
 # vue-project
 
-vue3 입문 스터디 
+vue3 스터디 !!!!
