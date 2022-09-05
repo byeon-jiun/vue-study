@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <app-header v-bind:name="message"></app-header>
+        <app-content v-bind:data="num"></app-content>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        /** 하위 컴포넌트로 내려줄땐 props 하위컴포넌트에서 올라올땐 이벤트 emit*/
+        let appHeader = {
+            template: '<h1>{{ name }}</h1>',
+            props: {
+                name: ''
+            }
+        }
+
+        let appCotent = {
+            template: '<h1>{{ data }}</h1>',
+            props: {
+                data: ''
+            }
+        }
+        new Vue({
+            el: '#app',
+            components: {
+                'app-header': appHeader,
+                'app-content': appCotent
+            },
+            data: {
+                message: '지운',
+                num: 10
+            }
+        })
+    </script>
+</body>
+</html>

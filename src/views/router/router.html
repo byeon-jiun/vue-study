@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <div>
+            <router-link to="/home">Home</router-link>
+            <router-link to="login">Login</router-link>
+        </div>
+        <router-view></router-view>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script>
+        let homeComp = {
+            template: '<div>home</div>'
+        }
+        let loginComp = {
+            template: '<div>login</div>'
+        }
+
+        let router = new VueRouter({
+            /** 페이지의 라우팅 정보 */
+            routes: [
+                {  path: '/home',
+                   name: 'Home',
+                   component: homeComp
+                },
+                {  path: '/login',
+                   name: 'Login',
+                   component: loginComp
+                }
+            ]
+        })
+
+        new Vue({
+            el: '#app',
+            router: router
+        })
+    </script>
+</body>
+</html>
